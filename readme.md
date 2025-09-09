@@ -21,6 +21,9 @@ function unicorn() {
 unicorn();
 ```
 
+> [!TIP]
+> Node.js 22.9.0 introduced a built-in [`util.getCallSites()`](https://nodejs.org/api/util.html#utilgetcallsitesframecount-options) function. This package remains useful for browser environments.
+
 ## API
 
 Returns an array of callsite objects with the following methods:
